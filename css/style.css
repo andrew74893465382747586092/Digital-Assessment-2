@@ -1,23 +1,25 @@
+
 /* Section styles. */
 body{
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif ;
-    background-color: #e0ffea;
+    background-color: #B8C9D9;
 }
 
 footer{
     color: #ffffff;
-    background-color: #10860b;
+    background-color: #0B132B;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
     border-radius: 10px;
+    clear: both;
 }
 /*** End Section style ***/
 
 
 /****** Nav styles ****/
-nav{background-color: #10860b;
+nav{background-color: #0B132B;
     width: 100%;
     border-radius: 9px;
     margin-top: 10px;
@@ -35,12 +37,12 @@ nav a{
 }
 
 nav a:visited{
-    color: #daf0f7;
+    color: white;
 }
 
 nav a:hover{
     color:white;
-    background-color: #00c542;
+    background-color: #1C2541;
     border-radius: 9px;
 }
 
@@ -49,7 +51,8 @@ nav a:hover{
 
 /**Styling for Header Image**/
 img{
-    width:60%
+    width: 60%;
+    border-radius: 10px;
 }
 
 /**End Styling for Header Image**/
@@ -59,13 +62,16 @@ img{
 h1{
     font-size: 60px;
     /*color: #ffffff;*/
-    color: rgb(28, 75, 10);
+    color: #0B132B;
     margin:0;
     padding-top: 15px;
     text-align: center;
-    background-color: rgb(124, 245, 90);
+    background-color: #3A506B;
 }
 
+h3{
+    color: white;
+}
 
 
 /*** Class styles ******/
@@ -82,17 +88,19 @@ h1{
     text-align:left;
     padding-left: 120px;
     padding-bottom: 30px;
-    border: #167187 2px solid;
+    border: #1C2541 2px solid;
     margin-bottom: 10px;
     padding-top: 20px;
-    background-color: #2cd526;
+    background-color: #3A506B;
     border-radius: 10px;
+    color: white;
 }
+
 
 .smallerimage{
     width: 40%;
     float: right;
-    margin-top: 180px;
+    margin-top: 20px;
     margin-left: 40px;
     border-radius: 10px;
 }
@@ -136,7 +144,7 @@ table, td {
     border-radius: 10px;
     border: black 2px solid;
     padding-right: 0;
-    background-color: #2cd526;
+    background-color: #1C2541;
     box-sizing: border-box;
     padding: 50px;
     display: inline-block;
@@ -148,4 +156,7 @@ table, td {
     border-radius: 10px;
 }
 
+.treeboxes li{
+    color: white;
+}
  /****End Treehouse boxes styles****/
