@@ -1,43 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Manga Club Chalets</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
 
-        <header>
-            
-            <img src="images/Maunga_Club_white.png" alt="Manga Club Pro Logo">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="chalets.html">Chalets</a>
-                    <a href="info.html">Info</a>
-                </nav>
-        </header>
-        <h2>
-            Our Range Of Options!
-        </h2>
-        <div class="treeboxes">
-            <h3>
-                Kākāpo Chalet
-            </h3>
-        <img src="images/kakapo/cabin_exterior.jpg" alt="A rustic treehouse">
+<head>
+    <meta charset="utf-8">
+    <title>Manga Club Chalets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/Maunga_Club_white.png" alt="Manga Club Pro Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="chalets.html">Chalets</a>
+            <a href="info.html">Info</a>
+        </nav>
+    </header>
+    <h2>
+        Our Range Of Options!
+    </h2>
+    <div class="treeboxes">
+        <h3>
+            Kākāpo Chalet
+        </h3>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides1 fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/kakapo/bunk_room.jpg" style="width:100%" alt="Kākāpo chalet Bunkroom">
+                <div class="text">Bunk Room</div>
+            </div>
+
+            <div class="mySlides1 fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/kakapo/cabin_exterior.jpg" style="width:100%" alt="kākāpo chalet exterior">
+                <div class="text">Chalet Exterior</div>
+            </div>
+
+            <div class="mySlides1 fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/kakapo/cabin_view.jpg" style="width:100%" alt="Kākāpo chalet view">
+                <div class="text">Chalet View</div>
+            </div>
+
+            <div class="mySlides1 fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/kakapo/hallway.jpg" style="width:100%" alt="kākāpo chalet hallway">
+                <div class="text">Hallway</div>
+            </div>
+
+            <!-- Next and previous buttons the second unmber inside the brackets is what slideshow it is controlling-->
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 0)"></span>
+            <span class="dot" onclick="currentSlide(2, 0)"></span>
+            <span class="dot" onclick="currentSlide(3, 0)"></span>
+            <span class="dot" onclick="currentSlide(4, 0)"></span>
+        </div>
         <ul>
             <li>Maximum adults: 10</li>
             <li>Maximum children: 30</li>
             <li>Largest of the chalets</li>
             <li>Large kitchen, dining and living area</li>
             <li>Great amenities</li>
-          </ul>
+        </ul>
+    </div>
+    <div class="treeboxes">
+        <h3>
+            Kererū Chalet
+        </h3>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides2 fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/kereru/adult_bedroom.jpg" style="width:100%" alt="Kererū chalet Adult bedroom">
+                <div class="text">Adult Bedroom</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/kereru/cabin_exterior.jpg" style="width:100%" alt="Kererū chalet chalet exteriour">
+                <div class="text">Chalet Exterior</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/kereru/kids_bedroom.jpg" style="width:100%" alt="Kererū chalet Kids bedroom">
+                <div class="text">Kids Bedroom</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/kereru/kitchen.jpg" style="width:100%" alt="Kererū chalet Kitchen">
+                <div class="text">Kitchen</div>
+            </div>
+
+            <!-- Next and previous buttons  the second unmber inside the brackets is what slideshow it is controlling-->
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
         </div>
-        <div class="treeboxes">
-            <h3>
-                Kererū Chalet
-            </h3>
-        <img src="images/kereru/cabin_exterior.jpg" alt="A rustic treehouse">
+        <br>
+
+        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 1)"></span>
+            <span class="dot" onclick="currentSlide(2, 1)"></span>
+            <span class="dot" onclick="currentSlide(3, 1)"></span>
+            <span class="dot" onclick="currentSlide(4, 1)"></span>
+        </div>
         <ul>
             <li>Maximum adults: 2</li>
             <li>Maximum children: 4</li>
@@ -45,30 +125,111 @@
             <li>2 bedrooms</li>
             <li>Perfect for families with 2-4 children</li>
             <li>Separate living area</li>
-          </ul>
+        </ul>
+    </div>
+    <div class="treeboxes">
+        <h3>
+            Pūkeko Chalet
+        </h3>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides3 fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/pukeko/adult_bedroom.jpg" style="width:100%" alt="Pūkeko chalet Adult bedroom">
+                <div class="text">Adult Bedroom</div>
+            </div>
+
+            <div class="mySlides3 fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/pukeko/chalet_exterior.jpg" style="width:100%" alt="Kererū chalet exterior">
+                <div class="text">Chalet Exterior</div>
+            </div>
+
+            <div class="mySlides3 fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/pukeko/bathroom.jpg" style="width:100%" alt="Kererū chalet Bathroom">
+                <div class="text">Bathroom</div>
+            </div>
+
+            <div class="mySlides3 fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/pukeko/chalet_view.jpg" style="width:100%" alt="Kererū chalet View">
+                <div class="text">Chalet View</div>
+            </div>
+
+            <!-- Next and previous buttons the second unmber inside the brackets is what slideshow it is controlling-->
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
         </div>
-        <div class="treeboxes">
-            <h3>
-                Pūkeko Chalet
-            </h3>
-        <img src="images/pukeko/chalet_exterior.jpg" alt="A rustic treehouse">
+        <br>
+
+        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 2)"></span>
+            <span class="dot" onclick="currentSlide(2, 2)"></span>
+            <span class="dot" onclick="currentSlide(3, 2)"></span>
+            <span class="dot" onclick="currentSlide(4, 2)"></span>
+        </div>
         <ul>
-            
+
             <li>Maximum adults: 6</li>
             <li>Maximum children: 15</li>
             <li>Great for large groups/families wanting a chalet to themselves</li>
             <li>Limits on adult/child number ensure comfortable stay</li>
-          </ul>
-        </div>
-    
-        <footer>
-            <h3>
-                Contact Us
-            </h3>
-            <p>
-                 Ph:  029 512 3656 | Email: maungaclub@maungaclub.maungaclub
-            </p>
-            <p><small>
+        </ul>
+    </div>
+
+    <footer>
+        <p>
+            Ph: 029 512 3656 | Email: maungaclub@maungaclub.maungaclub
+        </p>
+        <!--  This message is filling out the email feilds with the proper information-->
+        <nav>
+            <a href="mailto:maungaclub@maungaclub.maungaclub?subject=Maunga Ski Club Application&body= 
+&body=Please%20include%20the%20following%20information%20in%20your%20application.
+%0D%0A%0D%0ADrivers%20license%20number:%20%0D%0APhysical%20address:
+%20%0D%0AProof%20of%20address%20(eg%20copy%20of%20power%20bill):
+%20%0D%0AProof%20of%20ID%20(driver's%20licence%20or%20passport):
+" class="btn-contact"><u>Contact Us</u>
+            </a>
+        </nav>
+
+        <p><small>
                 &copy; MangaClub | Website by Hall Computing
             </small></p>
-        </footer>
+    </footer>
+
+
+    <script>
+        let slideIndex = [1, 1, 1];
+        let slideId = ["mySlides1", "mySlides2", "mySlides3"];
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+            let dots = document.getElementsByClassName("treeboxes")[no].getElementsByClassName("dot");
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+
+            dots[slideIndex[no] - 1].classList.add("active");
+        }
+        function currentSlide(n, no) {
+            showSlides(slideIndex[no] = n, no);
+        }
+    </script>
