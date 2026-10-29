@@ -26,6 +26,8 @@
         <h3>
             Kākāpo Chalet
         </h3>
+
+        <!---All image carosel code comes from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
         <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
@@ -59,7 +61,7 @@
         </div>
         <br>
 
-        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+         <!-- The dots/circles under the carosel... the second unmber inside the brackets is what slideshow it is controlling-->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1, 0)"></span>
             <span class="dot" onclick="currentSlide(2, 0)"></span>
@@ -111,7 +113,7 @@
         </div>
         <br>
 
-        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+         <!-- The dots/circles under the carosel... the second unmber inside the brackets is what slideshow it is controlling-->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1, 1)"></span>
             <span class="dot" onclick="currentSlide(2, 1)"></span>
@@ -164,7 +166,7 @@
         </div>
         <br>
 
-        <!-- The dots/circles the second unmber inside the brackets is what slideshow it is controlling-->
+        <!-- The dots/circles under the carosel... the second unmber inside the brackets is what slideshow it is controlling-->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1, 2)"></span>
             <span class="dot" onclick="currentSlide(2, 2)"></span>
@@ -184,7 +186,8 @@
         <p>
             Ph: 029 512 3656 | Email: maungaclub@maungaclub.maungaclub
         </p>
-        <!--  This message is filling out the email feilds with the proper information-->
+        <!--  This message is filling out the email feilds with the proper stuff the spaces 
+          and stuff had to be hexadisimal encoded https://www.youtube.com/watch?v=RDDK5dci1mQ-->
         <nav>
             <a href="mailto:maungaclub@maungaclub.maungaclub?subject=Maunga%20Ski%20Club%20Application&body=Please%20include%20the%20following%20information%20in%20your%20application.%0D%0A%0D%0ADrivers%20license%20number%3A%20%0D%0APhysical%20address%3A%0D%0AProof%20of%20address%20(eg%20copy%20of%20power%20bill)%3A%0D%0AProof%20of%20ID%20(driver%27s%20licence%20or%20passport)%3A" class="btn-contact"><u>Contact Us</u>
             </a>
@@ -194,9 +197,10 @@
                 &copy; MangaClub | Website by Hall Computing
             </small></p>
     </footer>
-
-
+    <!--Javascript for the image carosels https://www.w3schools.com/howto/howto_js_slideshow.asp-->
     <script>
+
+        /******* Differntiates between the different carosels and the buttons they use ****/
         let slideIndex = [1, 1, 1];
         let slideId = ["mySlides1", "mySlides2", "mySlides3"];
         showSlides(1, 0);
